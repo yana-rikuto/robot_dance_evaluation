@@ -52,3 +52,18 @@ def evaluate_dance(features):
     build_and_evaluate_model(X_accelerations, "加速度")
     build_and_evaluate_model(X_rhythm_consistency, "リズム一貫性")
     build_and_evaluate_model(X_timing, "タイミング")
+
+# positions:
+# 各フレームのランドマークの座標（x, y, z）。
+
+# velocities:
+# フレーム間のランドマークの位置変化速度。
+
+# accelerations:
+# フレーム間の速度変化（加速度）。
+
+# rhythm_consistency:
+# 各フレームの速度の変化量。
+
+# timing:
+# 各フレームのポジションの変化量。
